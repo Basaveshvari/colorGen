@@ -1,0 +1,124 @@
+:root{
+    --Primary-color:#FA07DE; 
+    --Secondary-color:#000000,#FFFFFE;
+    --Accent-color:#9A75F8;
+}
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 420px;
+    height: 330px;
+    border: 2px solid;
+    border-radius: 30px;
+    background-color: var(--Primary-color)
+}
+.child{
+    flex-basis: 0px;
+    height: 20px;
+    /* margin-right: 30px; */
+    color: var(--Secondary-color);
+    font-size: larger;
+    margin-left: 280px;
+    word-spacing: 15px;
+}
+.child, p{
+    display: inline-block;
+    position: relative;
+
+}
+.container-2{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: var(--Secondary-color);
+}
+.sub{
+
+    margin-left: 13px;
+    color: var(--Secondary-color);
+}
+h2{
+    margin-left: 90px;
+    color: var(--secondary-color);
+}
+.container-2 button{
+   background-color:#9A75F8;
+   padding: 5px;
+   border-radius: 10px;
+   margin-top: 10px;
+   margin-left: 110px;
+   color: var(--Secondary-color);
+}
+.child-2{
+    width: 00px;
+   display: none;
+}
+.container:hover .child-2 {
+   display: block;  
+}
+.sub-child{
+    margin-top: 5px;
+    width: 355px;
+    height: 40px;
+    position: relative;
+    border: 1px solid;
+    top: 35px;
+    right: 45px;
+    display: flex;
+    background-color: white;
+}
+.box1{
+    width: 110px;
+    height: 20px;
+    border: 1px solid;
+    position: relative;
+    top: 10px;
+    background-color: #FA07DE;
+}
+.box2{
+    width: 70px;
+    height: 20px;
+    border: 1px solid;
+    position: relative;
+    /* left: 100px */
+    top: 10px;
+    background-color: #000000;
+}
+.box3{
+    width: 80px;
+    height: 20px;
+    border: 1px solid;
+    position: relative;
+    top: 10px;
+    background-color: #FFFFFE; ;
+}
+.box4{
+    width: 90px;
+    height: 20px;
+    border: 1px solid;
+    position: relative;
+    /* left: 0px; */
+    top: 10px;
+    background-color: #9A75F8;
+}
+.child-3{
+    width: 45px;
+    height: 45px;
+    border-radius: 40%;
+    position: absolute;
+    left: 360px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(137, 43, 226, 0.856);
+    
+}
+.child-3 i{
+    position: relative;
+    font-size: 30px; 
+    color: var(--Secondary-color);
+}

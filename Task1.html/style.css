@@ -1,0 +1,26 @@
+.con{
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+    position: relative;
+    border-radius: 50%;
+    top: 150px;
+    left: 250px;
+    background-color: white;
+}
+.child{
+    width: 210px;
+    height: 210px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+.con-2{
+    width: 900px;
+    height: 400px;
+    border: 2px solid green;
+    background-color: green;
+}
